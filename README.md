@@ -30,11 +30,11 @@ Entorn de Desenvolupament:
 
 * Instal·lar en el client Windows tot el software indicat per l'entorn de desenvolupament en el mateix ordre.
 * Des de sa web de GitHub generar un fork de https://github.com/CarlesCanals/Desplegament-web
-* En l'equip client:
+* En l'equip client Windows:
 	* Generar una carpeta pel repositori local
 	* Generar una clau SSH i afegir-la en GitHub per poder autenticar-nos en el repositori remot
 	* Configurar en Git informació personal i per sincronitzar amb el repositori original 
-	* Clonar el repositori remot en local: git clone git@github.com:<usuari>/<repositori>
+	* Clonar el repositori remot en local
 	* Des de l'IDE Netbeans generar un nou projecte PHP amb ruta origen el repositori local i que s'executi com PHP Built-in Web Server
 * Generar una nova branca develop on desenvolupar els nostres canvis  
 

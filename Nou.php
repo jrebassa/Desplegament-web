@@ -1,11 +1,25 @@
 <?php
-
+ 
 require_once('Connexio.php');
 require_once('Header.php');
 
+/**
+ * @author Joan Rebassa Oliver
+ * 
+ * Classe per emplenar ses dades d'un nou producte
+ * 
+ * Genera un formulari Html per introduïr per teclat els valors 
+ * dels camps id, nom, descripció, preu i categoria (tots els camps
+ * són requerits) d'un nou producte a inserir en sa BBDD MariaDB la_meva_botiga.
+ * En fer submit del formulari crida al script Inserir.php per inserir 
+ * el nou registre en BBDD.
+ * 
+ */
 class Nou {
 
-    // Método para mostrar el formulario de alta del producto
+    /** 
+     * Mètode per mostrar el formulari d'alta d'un producte
+     */
     public function mostrarFormulariAlta() {
 
         // Obtiene la conexión a la base de datos

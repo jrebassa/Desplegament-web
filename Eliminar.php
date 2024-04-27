@@ -3,9 +3,24 @@
 // Incluye el archivo de conexión
 require_once('Connexio.php');
 
+/**
+ * @author Joan Rebassa Oliver
+ * 
+ * Classe per eliminar ses dades d'un nou producte
+ * 
+ * Obté el id del producte del que s'ha pressionat el botó Eliminar
+ * i executa un DELETE en BBDD del producte amb l'id seleccionat. 
+ * 
+ */
+
 class Eliminar {
     
-    // Método para elimionar un producto en la base de datos
+    /**
+     * Mètode per eliminar un producte en base de dades
+     * 
+     * @param Integer $id identificador del producte
+     * 
+     */
     public function eliminar($id) {
         // Verifica si el ID del producto es válido
         if (!isset($id) || !is_numeric($id)) {

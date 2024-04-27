@@ -3,9 +3,30 @@
 // Incluye el archivo de conexión
 require_once('Connexio.php');
 
+/**
+ * @author Joan Rebassa Oliver
+ * 
+ * Classe per inserir un nou producte en BBDD
+ * 
+ * Recupera els valors dels camps introduïts en el formulari Html  
+ * id, nom, descripció, preu i categoria verificant que tenen valor
+ * i executa un INSERT en sa BBDD la_meva_botiga.
+ * 
+ */
+
 class Inserir {
     
-    // Método para insertar un producto en la base de datos
+    
+    /**
+     * Mètode per inserir un producte en base de dades
+     * 
+     * @param String $id            identificador del producte
+     * @param String $nom           nom del producte
+     * @param String $descripcio    descripció del producte
+     * @param String $preu          preu del producte
+     * @param String $categoria     categoria del producte
+     * 
+     */
     public function inserir($id, $nom, $descripcio, $preu, $categoria) {
         // Verifica si todos los campos requeridos están presentes
         if (!isset($id) || !isset($nom) || !isset($descripcio) || !isset($preu) || !isset($categoria)) {

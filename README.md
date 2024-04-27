@@ -19,49 +19,39 @@ Entorn de Desenvolupament:
 * Visual C++
 * Framework de PHP Symfony 
 * PHP v8.3.6 (mòduls mbstring, mysqli)
+* Notepad ++
+* Git v2.44.0
 * Java JDK v21.0.3
 * Apache Netbeans v21
 * phpDocumentor (https://phpdoc.org/phpDocumentor.phar)
-* Notepad ++
-* Git v2.44.0
 * GitHub Desktop v3.3.14 
 
-### Installing
+### Instal·lació
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+* Instal·lar en el client Windows tot el software indicat per l'entorn de desenvolupament en el mateix ordre.
+* Des de sa web de GitHub generar un fork de https://github.com/CarlesCanals/Desplegament-web
+* En l'equip client:
+** Generar una carpeta pel repositori local
+** Generar una clau SSH i afegir-la en GitHub per poder autenticar-nos en el repositori remot
+** Configurar en Git informació personal i per sincronitzar amb el repositori original 
+** Clonar el repositori remot en local: git clone git@github.com:<usuari>/<repositori>
+** Des de l'IDE Netbeans generar un nou projecte PHP amb ruta origen el repositori local i que s'executi com PHP Built-in Web Server
+* Generar una nova branca develop on desenvolupar els nostres canvis  
 
 ## Execució de test
 
-* Executar el projecte com PHP Built-in Web Server accesible des de l’URL http://localhost:8000
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+* Per validar el funcionament dels nostres scripts executar el projecte que serà accesible des de l’URL http://localhost:8000/Principal.php
 
 ## Desenvolupat amb
 
-* [Apache Netbeans v21] (https://netbeans.apache.org/front/main/index.html) - IDE
-* [Java JDK v21] (https://www.oracle.com/es/java/technologies/downloads/#jdk21-windows) - Kit de desenvolupament de Java
-* [Symfony] (https://symfony.com/download) - Framework de PHP 
-* [PHP] (https://windows.php.net/download) - Intèrprete de PHP
+* [Apache Netbeans v21](https://netbeans.apache.org/front/main/index.html) - IDE
+* [Java JDK v21](https://www.oracle.com/es/java/technologies/downloads/#jdk21-windows) - Kit de desenvolupament de Java
+* [Symfony](https://symfony.com/download) - Framework de PHP 
+* [PHP](https://windows.php.net/download) - Intèrprete de PHP
 
 ## Autors
 
-* **Joan Rebassa Oliver** - [Desplegament-web] https://github.com/jrebassa/Desplegament-web.git)
+* **Joan Rebassa Oliver** - [Desplegament-web](https://github.com/jrebassa/Desplegament-web.git)
 
 ## Agraïments
 

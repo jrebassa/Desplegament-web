@@ -1,88 +1,59 @@
 # Desplegament-web
 
-One Paragraph of project description goes here
+Aplicació web per a sa gestió de productes electrònics i tèxtils d'una tenda online
+que permet altes, baixes i modificacions de sa relació de productes disponibles en sa web 
 
-## Getting Started
+### Prerequisits
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Entorn de producció:
+* Debian v12.4.0, SSH server, sense entorn gràfic
+* Gestor de BBDD MariaDB v10.11.6 amb sa BBDD la_meva_botiga
+* PHP 8.2.7(mòdul mbstring)
+* Servidor web Apache v2.4.57 (mòdul de PHP libapache2-mod-php)
+* PHPMyAdmin
 
-### Prerequisites
+Entorn de Desenvolupament:
+* Windows 10
+* Compte d'usuari en Github https://github.com
+* Gestor de BBDD MariaDB amb una còpia de sa BBDD la_meva_botiga
+* Visual C++
+* Framework de PHP Symfony 
+* PHP v8.3.6 (mòduls mbstring, mysqli)
+* Notepad ++
+* Git v2.44.0
+* Java JDK v21.0.3
+* Apache Netbeans v21
+* phpDocumentor (https://phpdoc.org/phpDocumentor.phar)
+* GitHub Desktop v3.3.14 
 
-What things you need to install the software and how to install them
+### Instal·lació
 
-```
-Give examples
-```
+* Instal·lar en el client Windows tot el software indicat per l'entorn de desenvolupament en el mateix ordre.
+* Des de sa web de GitHub generar un fork de https://github.com/CarlesCanals/Desplegament-web
+* En l'equip client Windows:
+	* Generar una carpeta pel repositori local
+	* Generar una clau SSH i afegir-la en GitHub per poder autenticar-nos en el repositori remot
+	* Configurar en Git informació personal i per sincronitzar amb el repositori original 
+	* Clonar el repositori remot en local
+	* Des de l'IDE Netbeans generar un nou projecte PHP amb ruta origen el repositori local i que s'executi com PHP Built-in Web Server
+* Generar una nova branca develop on desenvolupar els nostres canvis  
 
-### Installing
+## Execució de test
 
-A step by step series of examples that tell you how to get a development env running
+* Per validar el funcionament dels nostres scripts executar el projecte que serà accesible des de l’URL http://localhost:8000/Principal.php
 
-Say what the step will be
+## Desenvolupat amb
 
-```
-Give the example
-```
+* [Apache Netbeans v21](https://netbeans.apache.org/front/main/index.html) - IDE
+* [Java JDK v21](https://www.oracle.com/es/java/technologies/downloads/#jdk21-windows) - Kit de desenvolupament de Java
+* [Symfony](https://symfony.com/download) - Framework de PHP 
+* [PHP](https://windows.php.net/download) - Intèrprete de PHP
 
-And repeat
+## Autors
 
-```
-until finished
-```
+* **Joan Rebassa Oliver** - [Desplegament-web](https://github.com/jrebassa/Desplegament-web.git)
 
-End with an example of getting some data out of the system or using it for a little demo
+## Agraïments
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Fork de https://github.com/CarlesCanals/Desplegament-web.git
 
